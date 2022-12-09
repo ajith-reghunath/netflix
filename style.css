@@ -1,0 +1,197 @@
+*{
+    margin: 0%;
+    padding:0%;
+    font-family:'Roboto', sans-serif;
+}
+body{
+    background-color: #303030;
+}
+.main{
+    background-image: url("photos/netflixbanner.png");
+    background-size: cover;
+    background-position: center;
+
+    
+    color: white;
+    text-align: center;
+    height: 800px;
+    
+}
+.main h1{
+    font-size: 64px;
+    padding-top: 140px;
+}
+.main h3{
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 16px;
+    padding-bottom: 30px;
+}
+.main h4{
+    font-size: 19.2px;
+    font-weight: 400;
+}
+.main img{
+    width:15% ;
+}
+nav{
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.navright{
+    display: flex;
+    margin-top: 30px;
+}
+.Language{
+    padding-top: 1px;
+}
+.Language select{
+    width: 100px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    border-color: rgb(199, 200, 200);
+    border-width: 1px;
+    padding: 0px 4px;
+    
+}
+option{
+    color: rgb(249, 249, 249);
+    background-color: rgb(97, 97, 97);
+}
+
+.signin button{
+    margin-left: 30px;
+    width: 90px;
+    height: 38px;
+    background-color: #E50914;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+i{
+    color: white;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+}
+
+.bottom input{
+    width: 500px;
+    height: 70px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.bottom button{
+   
+    width: 245px;
+    height: 76px;
+    font-size: 30px;
+    color: white;
+    background-color: #E50914;
+}
+.main2{
+    background-color: black;
+    margin-top: 8px;
+    
+    padding: 40px 0px;
+}
+.sub1{
+    display: flex;
+    justify-content: center; 
+}
+.sub1 img{
+    width: 530px;
+    height: 397px;
+}
+.sub1text{
+    padding-top: 110px;
+    width: 595px;
+    height: 181px;
+    color: white;
+}
+.sub1text h1{
+    font-size: 50px;
+    margin-bottom: 8px;
+}
+.sub1text h3{
+    font-size: 26px;
+    font-weight: 400;
+}
+.main3{
+    background-color: black;
+    padding: 40px 0px;
+    margin-top: 8px;
+}
+.main4{
+    background-color: black;
+    padding: 60px 0px;
+    margin-top: 8px;
+    text-align: center;
+}
+.main4 h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 40px;
+}
+.options{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.option1{
+    background-color: #303030;
+    width: 830px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    margin-bottom: 10px;
+}
+.option1 i{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-top: 25px;
+}
+.option1 button{
+    color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 26px;
+}
+.main4 h4{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.main5{
+    background-color: black;
+    margin-top: 8px;
+    color:#606060;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.list p{
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.main5 h4{
+text-align: center;
+padding-top: 50px;
+padding-bottom:30px;
+}
+
+.main5 h5{
+text-align: center;
+padding-top: 10px;
+padding-bottom:30px;
+font-weight: 100px;
+}
